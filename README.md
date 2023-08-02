@@ -6,7 +6,7 @@ One-way, periodical synchroniser for two folders.
 - Folder paths, synchronisation interval, and log file path can be provided via CLI.
 
 ## 1. Dependencies
-Dependencies and venvs are managed with [PDM] (https://pdm.fming.dev/).
+Dependencies and venvs are managed with [PDM](https://pdm.fming.dev/).
 To install the required dependencies, run:
 
 ```bash
