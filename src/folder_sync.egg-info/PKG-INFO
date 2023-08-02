@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: folder-sync
+Version: 0.2.0
+Summary: One-way, periodical synchroniser for two folders.
+Author-email: riccardo mei <mei.riccardo96@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+License-File: LICENSE

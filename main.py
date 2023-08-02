@@ -1,2 +1,0 @@
-"""Program entry point.
-"""

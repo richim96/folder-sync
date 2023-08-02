@@ -1,2 +1,0 @@
-"""File synchronization tool.
-"""

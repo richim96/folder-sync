@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/folder_sync/__init__.py
+src/folder_sync/synchroniser.py
+src/folder_sync/utils.py
+src/folder_sync.egg-info/PKG-INFO
+src/folder_sync.egg-info/SOURCES.txt
+src/folder_sync.egg-info/dependency_links.txt
+src/folder_sync.egg-info/requires.txt
+src/folder_sync.egg-info/top_level.txt

@@ -1,11 +1,15 @@
 
 [project]
 name = "folder-sync"
+version = "0.2.0"
 description = "One-way, periodical synchroniser for two folders."
 authors = [
     {name = "riccardo mei", email = "mei.riccardo96@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "pre-commit>=3.3.3",
+    "mypy>=1.4.1",
+]
 requires-python = ">=3.11"
 license = {text = "MIT"}
 
