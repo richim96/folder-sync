@@ -26,7 +26,7 @@ To start the program, refer to the following CLI help section:
 ```bash
 python3 sync.py [-h] [-sp SOURCE] [-rp REPLICA] [-i INTERVAL] [-lp LOG]
 ```
-
+```
 Optional arguments:
   -h, --help            Help section for the sync tool. In absence of arguments,
                         the synchroniser will run in test with default settings.
@@ -38,6 +38,7 @@ Optional arguments:
                         Synchronisation interval, in seconds.
   -lp LOG, --log-path LOG
                         Path to the log file.
+```
 
 ## 3. Contributing
 Pull requests are welcome, but for major changes please open an issue first.
