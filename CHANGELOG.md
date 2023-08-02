@@ -1,3 +1,9 @@
+## 0.2.1 (2023-08-03)
+
+### 📝 Refactor
+
+- **skeleton**: update project skeleton, documentation, changelog and pre-commit hooks
+
 ## 0.2.0 (2023-08-03)
 
 ### 💣 Feat
