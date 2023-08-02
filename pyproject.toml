@@ -1,17 +1,28 @@
-
 [project]
 name = "folder-sync"
-version = "0.2.0"
+dynamic = ["version"]
 description = "One-way, periodical synchroniser for two folders."
 authors = [
     {name = "riccardo mei", email = "mei.riccardo96@gmail.com"},
 ]
-dependencies = [
-    "pre-commit>=3.3.3",
-    "mypy>=1.4.1",
-]
+readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
+
+dependencies = [
+    "pandas>=2.0.3",
+]
+
+[tool.pdm.dev-dependencies]
+precommit = [
+    "pre-commit>=2.20.0",
+    "black>=23.3.0",
+    "ruff>=0.0.272",
+    "mypy>=1.3.0",
+]
+release = [
+    "commitizen>=2.42.0",
+]
 
 [tool.commitizen]
 name = "cz_conventional_commits"
