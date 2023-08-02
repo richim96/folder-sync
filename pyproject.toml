@@ -1,11 +1,26 @@
 
 [project]
-name = ""
-version = ""
-description = ""
+name = "folder-sync"
+description = "One-way, periodical synchroniser for two folders."
 authors = [
     {name = "riccardo mei", email = "mei.riccardo96@gmail.com"},
 ]
 dependencies = []
 requires-python = ">=3.11"
 license = {text = "MIT"}
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.0"
+annotated_tag = true
+incremental = true
+update_changelog_on_bump = true
+check_consistency = true
+
+  [tool.commitizen.change_type_map]
+  build = "🏗️ Build"
+  feat = "💣 Feat"
+  fix = "🔨 Fix"
+  perf = "🏎️ Performance"
+  refactor = "📝 Refactor"
+  docs = "📚 Docs"
