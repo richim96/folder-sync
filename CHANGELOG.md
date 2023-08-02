@@ -1,3 +1,9 @@
+## 0.2.2 (2023-08-03)
+
+### 🔨 Fix
+
+- **pyproject**: issue with dynamic version update in pyproject solved
+
 ## 0.2.1 (2023-08-03)
 
 ### 📝 Refactor
