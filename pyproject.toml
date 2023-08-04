@@ -26,7 +26,7 @@ release = [
 ]
 
 [tool.ruff.per-file-ignores]
-"src/folder_sync/__init__.py" = ["F401"]
+"folder_sync/__init__.py" = ["F401"]
 
 [tool.commitizen]
 name = "cz_conventional_commits"

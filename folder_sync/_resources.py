@@ -127,12 +127,12 @@ class Folder:
         """Removes the given file from the current folder."""
         print(file)
 
-    def folder_add(self, folder: 'Folder'):
+    def folder_add(self, folder: "Folder"):
         """Adds a folder to the current folder."""
         # TODO: insert control to forbid using the same instance of the folder.
         print(folder)
 
-    def folder_remove(self, folder: 'Folder'):
+    def folder_remove(self, folder: "Folder"):
         """Removes a given folder from the current folder."""
         # TODO: insert control to forbid using the same instance of the folder.
         print(folder)
