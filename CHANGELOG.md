@@ -1,3 +1,9 @@
+## 0.4.0 (2023-08-04)
+
+### 💣 Feat
+
+- **sync_tools**: structure basic sync tools to perform synchronisation
+
 ## 0.3.0 (2023-08-04)
 
 ### 💣 Feat
