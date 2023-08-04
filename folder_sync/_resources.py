@@ -74,13 +74,13 @@ class Folder:
 
     Methods:
     --------
-    file_add()
+    file_add(file: File)
         Adds a given file to the current folder.
-    file_remove(file: 'File')
+    file_remove(file: File)
         Removes a given file from the current folder.
-    folder_add()
+    folder_add(folder: Folder)
         Add a given folder to the current folder.
-    folder_remove()
+    folder_remove(folder: Folder)
         Removes a given folder from the current folder.
     hash(hash_type: str)
         Hashes into a unique string the current folder with the chosen algorithm.
@@ -119,11 +119,11 @@ class Folder:
         """Number of subfolders in the current folder."""
         return len(self.subfolders)
 
-    def file_add(self, file: File) -> None:
+    def file_add(self, file: File):
         """Adds a file to the current folder."""
         print(file)
 
-    def file_remove(self, file: File) -> None:
+    def file_remove(self, file: File):
         """Removes the given file from the current folder."""
         print(file)
 

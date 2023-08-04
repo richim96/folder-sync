@@ -23,7 +23,7 @@ def run_sync(
     sync_period: int,
     source_hashes: list[str],
     replica_hashes: list[str],
-) -> None:
+):
     """Runs a one-way, periodical synchronisation between two folders.
 
     Parameters:

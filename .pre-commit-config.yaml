@@ -31,12 +31,4 @@ repos:
         entry: pdm run mypy
         language: system
         types: [python]
-        files: '^(src/|tests/)'
-      - id: commitizen
-        name: commitizen
-        entry: pdm run cz check
-        pass_filenames: false
-        args: [--rev-range, origin/main..HEAD]
-        language: system
-        types: [python]
-        stages: [push]
+        files: '^(folder_sync/|tests/|sync.py)'
