@@ -40,7 +40,10 @@ Optional arguments:
                         Path to the log file.
 ```
 
-## 3. Contributing
+## 3. Approach and Solution
+In progress.
+
+## 4. Contributing
 Pull requests are welcome, but for major changes please open an issue first.
 Also, make sure to:
 
