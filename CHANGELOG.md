@@ -1,3 +1,9 @@
+## 0.5.4 (2023-08-04)
+
+### 📝 Refactor
+
+- **project-layout**: simplify project layout
+
 ## 0.5.3 (2023-08-04)
 
 ### 📝 Refactor
