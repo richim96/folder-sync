@@ -1,3 +1,9 @@
+## 0.3.0 (2023-08-04)
+
+### 💣 Feat
+
+- **resources**: set up base resource classes for the program
+
 ## 0.2.3 (2023-08-04)
 
 ### 📝 Refactor
