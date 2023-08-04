@@ -1,11 +1,7 @@
 # 🔄 folder-sync
-One-way, periodical synchroniser for two folders.
+A one-way, periodical synchroniser for two folders.
 
-- The synchronisation maintains a full, identical copy of the source folder at the replica folder.
-- File creation/copying/removal operations are logged to a file and to the console.
-- Folder paths, synchronisation interval, and log file path can be provided via CLI.
-
-## 1. Dependencies
+## 1. Installing dependencies
 Dependencies and venvs are managed with [PDM](https://pdm.fming.dev/).
 To install the required dependencies, run:
 
@@ -40,8 +36,17 @@ Optional arguments:
                         Path to the log file.
 ```
 
-## 3. Approach and Solution
-In progress.
+## 3. Technical details
+**Synchronisation**: the synchronisation is one-way, from the source folder to the replica folder.
+A full, identical copy of the contents is maintained. The sync has a periodic interval.
+
+**Authenication**: the files are hashed implementing SHA256. SHA256 was chosen over MD5
+because it avoids collisions, and it is generally more secure - even if computationally more expensive.
+
+**Logging**: the synchronisation operations (creation, update, copy, removal) are
+logged to a file and to the console.
+
+**CLI**: folder paths, synchronisation interval, and log file path can be provided via CLI.
 
 ## 4. Contributing
 Pull requests are welcome, but for major changes please open an issue first.

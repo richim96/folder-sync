@@ -1,3 +1,9 @@
+## 0.5.0 (2023-08-04)
+
+### 💣 Feat
+
+- **resources**: continue implementation of File and Folder classes
+
 ## 0.4.0 (2023-08-04)
 
 ### 💣 Feat
