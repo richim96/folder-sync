@@ -1,3 +1,9 @@
+## 0.5.3 (2023-08-04)
+
+### 📝 Refactor
+
+- **pyproject**: update ruff rules
+
 ## 0.5.2 (2023-08-04)
 
 ### 🔨 Fix
