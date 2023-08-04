@@ -20,12 +20,12 @@ pip install -r requirements.txt
 To start the program, refer to the following CLI help section:
 
 ```bash
-python3 sync.py [-h] [-sp SOURCE] [-rp REPLICA] [-i INTERVAL] [-lp LOG]
+python3 sync.py [-h] [-t] [-sp SOURCE] [-rp REPLICA] [-i INTERVAL] [-lp LOG]
 ```
 ```
-Optional arguments:
-  -h, --help            Help section for the sync tool. In absence of arguments,
-                        the synchroniser will run in test with default settings.
+Arguments:
+  -h, --help            Help section for the sync tool.
+  -t, --test            Run the synchroniser in test mode.
   -sp SOURCE, --source-path SOURCE
                         Path to the source folder.
   -rp REPLICA, --replica-path REPLICA
