@@ -1,3 +1,9 @@
+## 0.5.1 (2023-08-04)
+
+### 📝 Refactor
+
+- **sync.py**: instantiate target folders and files
+
 ## 0.5.0 (2023-08-04)
 
 ### 💣 Feat

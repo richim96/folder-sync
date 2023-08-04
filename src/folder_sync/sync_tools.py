@@ -1,31 +1,25 @@
 """File synchronisation module.
 """
 
-# from folder_sync import sync_log
-from folder_sync._resources import Folder  # , File
+from folder_sync import File, Folder
 
 
-def folder_hash(folder: Folder):
-    """Hashes all files within a folder, and returns the list of hashes."""
-    ...
+def sync_log_read():
+    pass
+
+
+def sync_log_write():
+    pass
 
 
 def folders_compare(source_folder_hashes: list, replica_folder_hashes: list):
-    ...
-
-
-def log_file_read():
-    ...
-
-
-def log_file_write():
-    ...
+    pass
 
 
 def run_sync(
-    source_folder_path: str,
-    replica_folder_path: str,
-    log_file_path: str,
+    source_folder: Folder,
+    replica_folder: Folder,
+    sync_log_file: File,
     sync_period: int,
     source_hashes: list[str],
     replica_hashes: list[str],
@@ -34,11 +28,11 @@ def run_sync(
 
     Parameters:
     -----------
-    source_folder_path : str
+    source_folder : Folder
         The path to the source folder.
-    replica_folder_path : str
+    replica_folder : Folder
         The path to the replica folder.
-    log_file_path : str
+    sync_log_file : File
         The path to the log file.
     sync_period : int
         The period of time - in seconds - between synchronisation runs.
@@ -47,4 +41,4 @@ def run_sync(
     replica_hashes : list[str]
         The list of hashes of files in the replica folder. It can be empty.
     """
-    ...
+    pass

@@ -1,6 +1,6 @@
 """File synchronisation suite.
 """
 
-import logging
+from folder_sync._resources import File, Folder
 
-sync_log: logging.Logger = logging.getLogger(__name__).setLevel(logging.DEBUG)
+__version__ = "0.5.0"
