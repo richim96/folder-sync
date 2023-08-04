@@ -1,2 +1,0 @@
-"""File synchronisation module.
-"""

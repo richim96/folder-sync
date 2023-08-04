@@ -1,4 +1,6 @@
-"""Access point to the file synchronisation tool.
+"""File synchronisation suite.
 """
 
-# import synchroniser
+import logging
+
+sync_log: logging.Logger = logging.getLogger(__name__).setLevel(logging.DEBUG)

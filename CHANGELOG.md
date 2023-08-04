@@ -1,3 +1,9 @@
+## 0.2.3 (2023-08-04)
+
+### 📝 Refactor
+
+- **tests**: restructure tests assets's schema
+
 ## 0.2.2 (2023-08-03)
 
 ### 🔨 Fix
