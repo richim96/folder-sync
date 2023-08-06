@@ -1,5 +1,5 @@
 # 🔄 folder-sync
-A one-way, periodical synchroniser for two folders.
+A one-way, periodic synchroniser for two folders.
 
 ## 1. Installing dependencies
 Dependencies and venvs are managed with [PDM](https://pdm.fming.dev/).

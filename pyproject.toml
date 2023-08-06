@@ -1,7 +1,7 @@
 [project]
 name = "folder-sync"
 dynamic = ["version"]
-description = "One-way, periodical synchroniser for two folders."
+description = "One-way, periodic synchroniser for two folders."
 authors = [
     {name = "riccardo mei", email = "mei.riccardo96@gmail.com"},
 ]
